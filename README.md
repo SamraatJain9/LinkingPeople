@@ -51,11 +51,19 @@ This tool is particularly useful for analyzing and visualizing social networks, 
 2. **Download the Files**: Clone or download the repository containing:
    - `main.cpp`, `log.cpp`, `log.h`
    - CSV files: `data.csv` and `stat.csv`
-3. **Compile the Program**:
+
+Clone the Repository
+
+```bash
+git clone git@github.com:SamraatJain9/FBG.git
+cd FBG
+```
+### How to Run
+ **Compile the Program**:
    ```bash
    g++ main.cpp log.cpp -o SocialNetworkProfiler
 
-### How to Run
+
 Run the compiled program with:
 ```bash
 ./SocialNetworkProfiler
