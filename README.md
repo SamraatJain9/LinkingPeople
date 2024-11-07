@@ -1,6 +1,5 @@
 ---
 
-### Detailed Description
 <h3 align="center">This is a C++ program that finds and displays connections between the users. The data.csv file contains the list of names of people and the name of their friends. Connections Analyzer is a robust program developed to manage and analyze social network data from CSV files. It reads user connection data from `data/data.csv` and profession data from `data/stat.csv`. The program provides a suite of functionalities, including:
 
 - **String Manipulation**: Convert strings to lowercase and split them by delimiters for easier handling and comparison.
