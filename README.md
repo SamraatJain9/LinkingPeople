@@ -1,2 +1,49 @@
-# LinkingPeople
-Experimenting with DFS and BFS
+# Social Network Profiler
+
+A command-line program that helps users explore connections, professions, and skills in a social network dataset. Users can search friends, view others in their profession, and more.
+
+## Social Network Profiler
+
+### Table of Contents
+1. [Project Overview](#project-overview)
+2. [Installation](#installation)
+3. [How to Run](#how-to-run)
+4. [Contributors](#contributors)
+5. [License](#license)
+
+---
+
+### Project Overview
+**Social Network Profiler** is a console-based application that allows users to search and navigate a social network database. The tool helps users discover people with similar professions, find individuals by specific skills, and navigate connections between people.
+
+The application uses CSV files (`data.csv` and `stat.csv`) as the source of social network information, where:
+- `data.csv` holds connection and profession data.
+- `stat.csv` stores additional data like emails and detailed professional information.
+
+Features include:
+- Username validation and profile search.
+- Professional group and skill-based searches.
+- Pathfinding for connection navigation between users.
+
+### Installation
+
+1. **Prerequisites**: Ensure you have a C++ compiler (such as g++) installed.
+2. **Download the Files**: Clone or download the repository containing:
+   - `main.cpp`, `log.cpp`, `log.h`
+   - CSV files: `data.csv` and `stat.csv`
+3. **Compile the Program**:
+   ```bash
+   g++ main.cpp log.cpp -o SocialNetworkProfiler
+
+### How to Run
+Run the compiled program with:
+```bash
+./SocialNetworkProfiler
+```
+
+### Contributors
+The contributors of this project are: [Samraat Jain](https://github.com/SamraatJain9)
+
+### License
+License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
