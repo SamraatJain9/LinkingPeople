@@ -62,12 +62,12 @@ cd FBG
  **Compile the Program**:
    ```bash
    g++ main.cpp log.cpp -o SocialNetworkProfiler
+   ```
 
-
-Run the compiled program with:
-```bash
-./SocialNetworkProfiler
-```
+   Run the compiled program with:
+   ```bash
+   ./SocialNetworkProfiler
+   ```
 
 ### Contributors
 The contributors of this project are: [Samraat Jain](https://github.com/SamraatJain9)
