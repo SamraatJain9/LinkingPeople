@@ -6,7 +6,7 @@ This tool is particularly useful for analyzing and visualizing social networks, 
 
 ---
 
-# The Real Linked Project
+# The Real Linked Project (Experimental)
 
 A command-line program that helps users explore connections, professions, and skills in a social network dataset. Users can search friends, view others in their profession, and more.
 
